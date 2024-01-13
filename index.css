@@ -1,0 +1,121 @@
+/*parametros de fondo*/
+body {
+    background: linear-gradient(to bottom, #4c51f7, #319236);
+    margin: 0;
+    }
+* {
+    box-sizing: border-box;
+}
+/*parametros de header*/
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Esto centra el texto horizontalmente */
+    height:auto; /* Esto asegura que el encabezado ocupe al menos el 100% de la altura de la ventana */
+    background: linear-gradient(to bottom, #4c51f7, #9d4dbb);
+}
+#TITULOGENERAL{ /*titulo de arriba */
+    background: linear-gradient(5deg, yellow, #f3af19); 
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    margin: 0;
+}
+#vtbr {
+    color: white;
+    font-weight: 700;
+}
+p { /*todos los parrafos*/
+    color: white
+}
+h2 { /*todos los subtitulos*/
+    color: white
+}
+.what {
+    display: flex;
+}
+
+.whatp {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagesection {
+    flex: 2;
+    padding: 0px;
+}
+
+.imagesection img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px;
+    border-radius: 50px;
+}
+h2{
+    background: linear-gradient(to bottom, #4c51f7, #319236);
+    border: solid white 2px;
+    border-radius:15px;
+    height: auto;
+    width: 300px;
+    align-content:center; 
+    align-items: center;
+    text-align: center;
+}
+}
+
+.aside {
+    display: flex;
+    padding: 20px;
+}
+
+#imagenventas {
+    flex: 1;
+    height: 300px;
+    padding: 0 20px;
+}
+
+#textoHistoria {
+    flex: 2;
+    width: 600px;
+    height: 700px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1300px;
+}
+
+#textoHistoria img {
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.last {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #9d4dbb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
